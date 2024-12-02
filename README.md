@@ -8,7 +8,7 @@ Here is how I bring up an SV08, once it has new firmware.
 - PROBE_CALIBRATE
 - Print the Layer 1 test (15mm disk).  This will use roughly 11mm of filament per print.  Slice it with one layer, one loop, skirt.
   - Peel the skirt from the build plate and measure with a caliper.  The thickness should be whatever you sliced.
-  - Adjust the Z offset using [<sliced layer height> - <measured layer height>]
+  - Adjust the Z offset using [Sliced layer height - measured layer height]
 
 That should get you pretty close.  Once you are laying down a nice first layer, it's down to standard tuning.  There is a ton of Klipper tuning resource on the net.
 
